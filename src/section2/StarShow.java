@@ -14,7 +14,7 @@ public class StarShow {
 	void makeStars() {
 		
 		// 13. Set the speed to 8
-
+robo.speed(100);
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
 int x = 10;
 		// 7. Make a variable to hold the Y position of the Robot and set it to 600

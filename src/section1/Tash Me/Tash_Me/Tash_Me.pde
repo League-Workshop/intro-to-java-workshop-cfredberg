@@ -1,13 +1,13 @@
 PImage mustache;
-PImage dad;
+PImage person;
 void setup() {
-dad = loadImage("dad.jpg");
+person = loadImage("person.jpg");
 size(500, 680);
-dad.resize(width,height);
+person.resize(width,height);
 mustache = loadImage("stash.png");
 }
 
 void draw() {
-background(dad);
+background(person);
 image(mustache, 108, 220);
 }
